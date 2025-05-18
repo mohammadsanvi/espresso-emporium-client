@@ -1,12 +1,57 @@
-# React + Vite
+# ☕ Espresso Emporium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Espresso Emporium**, a full-featured coffee management web application. This app allows users to manage coffee items with full CRUD functionality and includes a user management system with authentication.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [https://espresso-emporium-79433.web.app/](https://espresso-emporium-79433.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ User Authentication
+- Secure login using Firebase Authentication
+- Only logged-in users can access and perform management actions
+
+### ☕ Coffee Management (CRUD)
+- **Create** – Add new coffee items
+- **Read** – View coffee list with images and details
+- **Update** – Edit existing coffee info
+- **Delete** – Delete coffee items with confirmation popup
+
+### 👥 User Management
+- View all registered users
+- Delete users from database
+- User authentication-based route protection
+
+### ⚡ Alerts & UI Enhancements
+- SweetAlert2 for confirmation and success messages
+- Responsive design with smooth UI
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+### 🧑‍💻 Frontend
+- React.js
+- React Router
+- Tailwind CSS
+- DaisyUI
+- SweetAlert2
+- React Icons & Lucide React
+
+### 🔐 Authentication
+- Firebase Authentication
+
+### 🌐 Backend & Database
+- Node.js
+- Express.js
+- MongoDB
+
+### 🔧 Dev Tools
+- Vite (frontend bundler)
+- VS Code
+
+---
+
+## 📁 Project Structure
+

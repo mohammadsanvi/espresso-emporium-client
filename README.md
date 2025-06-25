@@ -8,10 +8,6 @@ Welcome to **Espresso Emporium**, a full-featured coffee management web applicat
 
 ## ✨ Features
 
-### ✅ User Authentication
-- Secure login and user identity management using Firebase Authentication
-- Protected routes for authorized actions only
-
 ### ☕ Coffee Management (CRUD)
 - **Create** – Add new coffee items
 - **Read** – View list of all coffee items with image & description
@@ -64,21 +60,34 @@ Welcome to **Espresso Emporium**, a full-featured coffee management web applicat
 ## 📁 Project Structure
 
 📦 espresso-emporium/
+
 ┣ 📁 client/ → Frontend React app
+
 ┣ 📁 server/ → Backend with Express.js
+
 ┣ 📄 .env → Environment variables
+
 ┣ 📄 README.md
 
 ## Clone And Setup
 
+---
+
 git clone https://github.com/your-username/espresso-emporium-server-site.git
+
 cd espresso-emporium-server-site
+
 npm install
+
 npm run start
+
+---
 
 
 ## 🔗 Important Links
+
 🌐Client Live: https://espresso-emporium-79433.web.app/
+
 🌐Server Live: https://espresso-emporium-server-one-iota.vercel.app/
 
 📂 Client Repo: [GitHub - espresso-emporium-client](https://github.com/mohammadsanvi/espresso-emporium-client)
@@ -87,7 +96,11 @@ npm run start
 
 
 ## 🙋‍♂️ Author
+
 Mohammad Sanvi
+
 📧 Email: mohammadsanvi.dev@gmail.com
+
 🌐 LinkedIn: linkedin.com/in/mohammad-sanvi-2b7569371
+
 📘 Facebook: facebook.com/abraruljannatsafi

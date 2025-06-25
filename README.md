@@ -1,6 +1,6 @@
 # ☕ Espresso Emporium
 
-Welcome to **Espresso Emporium**, a full-featured coffee management web application. This app allows users to manage coffee items with full CRUD functionality and includes a user management system with authentication.
+Welcome to **Espresso Emporium**, a full-featured coffee management web application. This MERN stack-based project allows users to manage coffee items with full CRUD functionality along with user authentication and a responsive UI.
 
 🔗 **Live Site**: [https://espresso-emporium-79433.web.app/](https://espresso-emporium-79433.web.app/)
 
@@ -9,35 +9,34 @@ Welcome to **Espresso Emporium**, a full-featured coffee management web applicat
 ## ✨ Features
 
 ### ✅ User Authentication
-- Secure login using Firebase Authentication
-- Only logged-in users can access and perform management actions
+- Secure login and user identity management using Firebase Authentication
+- Protected routes for authorized actions only
 
 ### ☕ Coffee Management (CRUD)
 - **Create** – Add new coffee items
-- **Read** – View coffee list with images and details
-- **Update** – Edit existing coffee info
-- **Delete** – Delete coffee items with confirmation popup
+- **Read** – View list of all coffee items with image & description
+- **Update** – Edit existing coffee details with validation
+- **Delete** – Delete coffee items with confirmation prompt
 
-### 👥 User Management
-- View all registered users
-- Delete users from database
-- User authentication-based route protection
+### 👥 User Management (Optional if implemented)
+- View and manage registered users (admin-level only)
 
-### ⚡ Alerts & UI Enhancements
+### ⚡ Alerts & UI
 - SweetAlert2 for confirmation and success messages
-- Responsive design with smooth UI
+- Fully responsive, mobile-friendly design
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tech Stack & Tools
 
-### 🧑‍💻 Frontend
+### 💻 Frontend
 - React.js
-- React Router
+- React Router DOM
 - Tailwind CSS
 - DaisyUI
 - SweetAlert2
-- React Icons & Lucide React
+- Lucide React
+- React Icons
 
 ### 🔐 Authentication
 - Firebase Authentication
@@ -45,13 +44,50 @@ Welcome to **Espresso Emporium**, a full-featured coffee management web applicat
 ### 🌐 Backend & Database
 - Node.js
 - Express.js
-- MongoDB
+- MongoDB (Cloud hosted)
+- Cors, dotenv
 
-### 🔧 Dev Tools
-- Vite (frontend bundler)
+### ⚙️ Development Tools
+- Vite
 - VS Code
+- Nodemon (for backend)
+
+---
+
+## 📸 UI Screenshot
+
+![Espresso Emporium UI](https://i.ibb.co/BVcXNFDJ/image.png)
+![Espresso Emporium UI](https://i.ibb.co/21VpHg29/image.png)
 
 ---
 
 ## 📁 Project Structure
 
+📦 espresso-emporium/
+┣ 📁 client/ → Frontend React app
+┣ 📁 server/ → Backend with Express.js
+┣ 📄 .env → Environment variables
+┣ 📄 README.md
+
+## Clone And Setup
+
+git clone https://github.com/your-username/espresso-emporium-server-site.git
+cd espresso-emporium-server-site
+npm install
+npm run start
+
+
+## 🔗 Important Links
+🌐Client Live: https://espresso-emporium-79433.web.app/
+🌐Server Live: https://espresso-emporium-server-one-iota.vercel.app/
+
+📂 Client Repo: [GitHub - espresso-emporium-client](https://github.com/mohammadsanvi/espresso-emporium-client)
+
+📂 Server Repo: [GitHub - espresso-emporium-server-site](https://github.com/mohammadsanvi/espresso-emporium-server-site)
+
+
+## 🙋‍♂️ Author
+Mohammad Sanvi
+📧 Email: mohammadsanvi.dev@gmail.com
+🌐 LinkedIn: linkedin.com/in/mohammad-sanvi-2b7569371
+📘 Facebook: facebook.com/abraruljannatsafi

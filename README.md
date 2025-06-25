@@ -69,19 +69,6 @@ Welcome to **Espresso Emporium**, a full-featured coffee management web applicat
 
 ┣ 📄 README.md
 
-## Clone And Setup
-
----
-
-git clone https://github.com/your-username/espresso-emporium-server-site.git
-
-cd espresso-emporium-server-site
-
-npm install
-
-npm run start
-
----
 
 
 ## 🔗 Important Links
@@ -104,3 +91,13 @@ Mohammad Sanvi
 🌐 LinkedIn: linkedin.com/in/mohammad-sanvi-2b7569371
 
 📘 Facebook: facebook.com/abraruljannatsafi
+
+
+## Clone And Setup
+
+```bash
+git clone https://github.com/mohammadsanvi/espresso-emporium-client.git
+cd espresso-emporium-client
+npm install
+npm run dev
+
